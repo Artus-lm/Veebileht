@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="scoreboard.css">
+
+</head>
+<body>
+
+<div class="tab">
+  <span class="buttoninbetween">/</span>
+  <button id="tulemasNupp" class="tabid" onclick="avaTab(event, 'Tulemas')">Tulemas</button> 
+  <button id="möödunudNupp" class="tabid" onclick="avaTab(event, 'Möödunud')">Möödunud</button>
+</div>
+
+<!-- tabide sisud -->
+<div id="Tulemas" class="tabcontent">
+  <h3>Tulemas</h3>
+  <p>placeholder</p>
+</div>
+
+<div id="Möödunud" class="tabcontent">
+  <h3>Möödunud</h3>
+  <p>placeholder</p>
+</div>
+
+<script>
+function avaTab(event, nimi){
+
+document.getElementById("Tulemas").style.display = "none";
+document.getElementById("Möödunud").style.display = "none";
+
+document.getElementById("tulemasNupp").className = document.getElementById("tulemasNupp").className.replace(" active", "");
+document.getElementById("möödunudNupp").className = document.getElementById("möödunudNupp").className.replace(" active", "");
+
+document.getElementById(nimi).style.display = "block";
+evt.currentTarget.className += " active"; 
+}
+</script>
+
+</body>
+</html>
