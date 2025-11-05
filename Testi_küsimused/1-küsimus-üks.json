@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "text": "",
+      "answers": [
+        {
+          "id": 1,
+          "text": "",
+          "scores": {
+            "side": 0,
+            "nurk": 0,
+            "diago": 0,
+            "tempo": 0,
+            "libero": 0,
+            "treener": 0,
+            "pink": 0
+          }
+        }        
+      ]
+    }
+  ]
+}
