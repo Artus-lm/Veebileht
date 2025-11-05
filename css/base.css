@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #0042A6;
+  --color-dark: #001A40;
+  --color-light: #ffffff;
+
+  --gradient-main: linear-gradient(to right, #0042A6, #001A40);
+}
+
+
+header {
+  background: var(--gradient-main);
+  color: var(--color-light);
+}
+
+h1 {
+    color: var(--color-light);
+}
+
+h2 {
+  color: var(--color-primary);
+
+}
+
+
+footer, .contact-section {
+  background: var(--gradient-main);
+  color: var(--color-light);
+}
