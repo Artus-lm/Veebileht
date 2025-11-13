@@ -49,10 +49,10 @@ body {
 }
 
 .hero {
-  background-image: url('my-hero.png'); /* asenda enda pildiga */
+  background-image: url('my-hero.png'); 
   background-size: cover;
   background-position: center;
-  height: 72vh;                /* suur pilt all */
+  height: 72vh;                
   display:flex;
   justify-content:center;
   align-items:center;
@@ -81,12 +81,12 @@ body {
   text-align: center;
 }
 
-/* Mängud sektsioon */
+
 .section--tight { margin: 100px; }
 
 .section--tight .container {
   margin-top: -8px;
-  max-width: 4000px;              /* nullib .container 12px ülemise paddingu */
+  max-width: 4000px;              
 }
 
 .section-title {
@@ -94,20 +94,20 @@ body {
   font-weight: 400;
   letter-spacing: 0.5px;
   background: linear-gradient(to right, #0042A6, #001A40);
-  -webkit-background-clip: text;   /* makes the background visible only inside text */
-  -webkit-text-fill-color: transparent; /* hides the solid text color */
-  background-clip: text;           /* standard property for some browsers */
+  -webkit-background-clip: text;   
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;           
   color: transparent;     
   transform: translate(0, -240px);
-        /* sobib sinu sinise teemaga */
+     
 }
 
-/* Hall suur ristkülik */
+
 .scoreboard-card {
-  background: #e6e6e6;    /* helehall nagu maketis */
+  background: #e6e6e6;    
   border-radius: 8px;
   min-height: 260px;
-  width: 100vw;      /* muuda kõrgust vastavalt kujundusele */
+  width: 100vw;      
   padding: 190px;
   padding-left: 800px;
   margin-left: calc(-50vw + 40%);
