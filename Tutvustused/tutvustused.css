@@ -49,7 +49,7 @@ body {
 }
 
 .hero {
-  background-image: url('my-hero.png'); 
+  background-image: url('../my-hero.png'); 
   background-size: cover;
   background-position: center;
   height: 40vh;                
