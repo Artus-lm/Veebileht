@@ -94,3 +94,48 @@ body {
   margin-left: 120px;
   margin-bottom: 50px;
 }
+
+.players-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.player-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.player-card img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.player-info {
+    max-width: 700px;
+    background: linear-gradient(to right, #0042A6, #001A40);
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;           
+    color: transparent;     
+
+}
+
+.player-card h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.8rem;
+}
+
+.player-card p {
+    margin: 4px 0;
+}
+
+/* Iga teine mängija: tekst vasakul, pilt paremal */
+.player-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
