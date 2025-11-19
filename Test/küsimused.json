@@ -34,7 +34,7 @@
           "scores": { "side": 2, "nurk": 1, "diago": 2, "tempo": 1, "libero": 2, "treener": 2, "pink": 0 }
         },
        {
-          "text": "mu nimi on Guinessi rekordite raamatus 'maailma pikima inimese' all",
+          "text": "mu nimi on Guinnessi rekordite raamatus 'maailma pikima inimese' all",
           "scores": { "side": 0, "nurk": 3, "diago": 2, "tempo": 3, "libero": 0, "treener": 1, "pink": 0 }
         },
         {
@@ -53,7 +53,7 @@
 
     {
       "id": 3,
-      "text": "",
+      "text": "Mis on su supervõime?",
       "answers": [
         {
           "text": "",
