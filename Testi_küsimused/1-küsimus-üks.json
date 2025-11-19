@@ -1,22 +1,106 @@
 {
   "questions": [
     {
+      "id": 1,
+      "text": "Kui Sa ei mängiks võrkpalli, siis mis spordialaga tegeleksid?",
+      "answers": [
+        {
+          "text": "kergejõustik",
+          "scores": { "side": 1, "nurk": 2, "diago": 3, "tempo": 2, "libero": 1, "treener": 1, "pink": 0 }
+        },
+       {
+          "text": "korvpall",
+          "scores": { "side": 1, "nurk": 3, "diago": 2, "tempo": 3, "libero": 0, "treener": 2, "pink": 0 }
+        },
+        {
+          "text": "võimlemine",
+          "scores": { "side": 1, "nurk": 0, "diago": 0, "tempo": 1, "libero": 3, "treener": 1, "pink": 0 }
+        },
+        {
+          "text": "tugitoolisport",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0, "treener": 3, "pink": 3 }
+        }
+        
+      ]
+    },
+
+
+    {
+      "id": 2,
+      "text": "Milline on su kehaehitus?",
+      "answers": [
+        {
+          "text": "keskmine, aga kuldne - täpselt nagu mu mäng",
+          "scores": { "side": 2, "nurk": 1, "diago": 2, "tempo": 1, "libero": 2, "treener": 2, "pink": 0 }
+        },
+       {
+          "text": "mu nimi on Guinessi rekordite raamatus 'maailma pikima inimese' all",
+          "scores": { "side": 0, "nurk": 3, "diago": 2, "tempo": 3, "libero": 0, "treener": 1, "pink": 0 }
+        },
+        {
+          "text": "iga aasta detsemebris kutsutakse mind jõuluvanale appi...",
+          "scores": { "side": 1, "nurk": 0, "diago": 0, "tempo": 0, "libero": 3, "treener": 0, "pink": 0 }
+        },
+        {
+          "text": "lihased nagu kulturistil",
+          "scores": { "side": 1, "nurk": 3, "diago": 3, "tempo": 3, "libero": 1, "treener": 1, "pink": 2 }
+        }
+        
+      ]
+    },
+
+
+
+    {
+      "id": 3,
       "text": "",
       "answers": [
         {
-          "id": 1,
           "text": "",
-          "scores": {
-            "side": 0,
-            "nurk": 0,
-            "diago": 0,
-            "tempo": 0,
-            "libero": 0,
-            "treener": 0,
-            "pink": 0
-          }
-        }        
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+        },
+       {
+          "text": "",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+        },
+        {
+          "text": "",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+        },
+        {
+          "text": "",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+        }
+        
+      ]
+    },
+   
+
+
+    {
+      "id": 4,
+      "text": "",
+      "answers": [
+        {
+          "text": "",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+        },
+       {
+          "text": "",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+        },
+        {
+          "text": "",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+        },
+        {
+          "text": "",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+        }
+        
       ]
     }
+
+
   ]
 }
