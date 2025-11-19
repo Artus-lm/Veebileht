@@ -56,20 +56,20 @@
       "text": "Mis on su supervõime?",
       "answers": [
         {
-          "text": "",
-          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+          "text": "võin kinnisilmi servida",
+          "scores": { "side": 2, "nurk": 3, "diago": 3, "tempo": 2, "libero": 0,  "treener": 0, "pink": 1 }
         },
        {
-          "text": "",
-          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+          "text": "hüppan nii kõrgele, et saan pilvi katsuda",
+          "scores": { "side": 2, "nurk": 3, "diago": 3, "tempo": 3, "libero": 0,  "treener": 0, "pink": 1 }
         },
         {
-          "text": "",
-          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+          "text": "90% maast katab vesi, ülejäänud 10% mina",
+          "scores": { "side": 2, "nurk": 2, "diago": 2, "tempo": 1, "libero": 3,  "treener": 0, "pink": 1 }
         },
         {
-          "text": "",
-          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+          "text": "oskan vastase mõtteid lugeda",
+          "scores": { "side": 3, "nurk": 1, "diago": 1, "tempo": 1, "libero": 3,  "treener": 3, "pink": 1 }
         }
         
       ]
@@ -79,23 +79,73 @@
 
     {
       "id": 4,
-      "text": "",
+      "text": "Kuidas platsil käitud?",
       "answers": [
         {
-          "text": "",
-          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
-        },
-       {
-          "text": "",
-          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+          "text": "seisan blokis nagu Berliini müür",
+          "scores": { "side": 2, "nurk": 3, "diago": 3, "tempo": 3, "libero": 0,  "treener": 0, "pink": 1 }
         },
         {
-          "text": "",
-          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+          "text": "lähen igale pallile järele nagu mu elu sõltuks sellest",
+          "scores": { "side": 2, "nurk": 2, "diago": 2, "tempo": 1, "libero": 3,  "treener": 0, "pink": 1 }
         },
         {
-          "text": "",
-          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 0,  "treener": 0, "pink": 0 }
+          "text": "juhin mängu nagu dirigent",
+          "scores": { "side": 3, "nurk": 0, "diago": 0, "tempo": 0, "libero": 1,  "treener": 3, "pink": 0 }
+        },
+        {
+          "text": "toetan omasid nii valjult, et vastane peab time-out'i võtma",
+          "scores": { "side": 0, "nurk": 0, "diago": 0, "tempo": 0, "libero": 1,  "treener": 2, "pink": 3 }
+        }
+        
+      ]
+    },
+
+
+    {
+      "id": 5,
+      "text": "Mida teed, kui oled kaotusseisus?",
+      "answers": [
+        {
+          "text": "hakkan juhtima nagu kindral lahinguväljal",
+          "scores": { "side": 3, "nurk": 0, "diago": 0, "tempo": 0, "libero": 1,  "treener": 3, "pink": 0 }
+        },
+        {
+          "text": "leian oma sisemise rahu",
+          "scores": { "side": 2, "nurk": 1, "diago": 1, "tempo": 1, "libero": 3,  "treener": 1, "pink": 0 }
+        },
+        {
+          "text": "ma blokeerin kõik… emotsioonid, pallid ja vastased",
+          "scores": { "side": 2, "nurk": 3, "diago": 3, "tempo": 3, "libero": 0,  "treener": 0, "pink": 0 }
+        },
+        {
+          "text": "tulen platsile ja toon võidu koju",
+          "scores": { "side": 2, "nurk": 1, "diago": 1, "tempo": 1, "libero": 2,  "treener": 0, "pink": 3 }
+        }
+        
+      ]
+    },
+
+
+    {
+      "id": 6,
+      "text": "Milline laul peaks mängima, kui platsile astud?",
+      "answers": [
+        {
+          "text": "'Monster Block' - FIVB",
+          "scores": { "side": 2, "nurk": 3, "diago": 3, "tempo": 3, "libero": 0,  "treener": 0, "pink": 1 }
+        },
+        {
+          "text": "'Eye of the tiger' - Survivor",
+          "scores": { "side": 2, "nurk": 0, "diago": 0, "tempo": 0, "libero": 1,  "treener": 3, "pink": 3 }
+        },
+        {
+          "text": "'I will survive' - Medley",
+          "scores": { "side": 1, "nurk": 2, "diago": 2, "tempo": 2, "libero": 3,  "treener": 0, "pink": 1 }
+        },
+        {
+          "text": "'Don't stop me now' - Queen",
+          "scores": { "side": 1, "nurk": 2, "diago": 2, "tempo": 2, "libero": 3,  "treener": 0, "pink": 2 }
         }
         
       ]
