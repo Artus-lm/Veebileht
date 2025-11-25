@@ -58,6 +58,7 @@ body {
   align-items:center;
   position: relative;
   margin-bottom: 0;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.15);
 }
 
 .hero::after {
@@ -67,7 +68,9 @@ body {
   background: linear-gradient(to right, rgba(124, 167, 202, 1), rgba(44, 113, 170, 1));
   z-index: 1;
   pointer-events: none;
-  opacity: 0.60; 
+  opacity: 0.60;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+
 }
 
 .hero-text h1 {
@@ -80,7 +83,7 @@ body {
   z-index: 2;
   text-align:left;
   margin-left: 120px;
-  margin-top: 200px;
+  margin-top: 240px;
 }
 
 .hero-text p {

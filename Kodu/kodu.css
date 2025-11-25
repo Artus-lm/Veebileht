@@ -58,6 +58,7 @@ body {
   align-items:center;
   position: relative;
   margin-bottom: 0;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.15);
 }
 
 .hero::after {
@@ -68,6 +69,8 @@ body {
   z-index: 1;
   pointer-events: none;
   opacity: 0.60; 
+  box-shadow: 0 5px 0  rgba(0,0,0,0.15);
+
 }
 
   /* Keskne tekst pildil */
@@ -91,7 +94,7 @@ body {
 
 .section-title {
   font-size: 55px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.5px;
   background: linear-gradient(to right, #0042A6, #001A40);
   -webkit-background-clip: text;   
@@ -99,6 +102,7 @@ body {
   background-clip: text;           
   color: transparent;     
   transform: translate(0, -240px);
+  margin-top: 100px;
      
 }
 
@@ -112,6 +116,7 @@ body {
   padding-left: 800px;
   margin-left: calc(-50vw + 40%);
   box-shadow: 0 1px 0 rgba(0,0,0,0.06) inset;
+  margin-top: 150px;
 }
 
 .site-footer {
@@ -133,4 +138,22 @@ body {
   font-size: 20px;
   margin-left: 40px;
 }
+
+.section-text p {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color:black;
+  text-align: center;
+  text-shadow:5px black;
+  position: relative;
+  margin-top: 100px;
+  
+
+}
+ 
+
+
+
+
 
