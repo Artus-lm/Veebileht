@@ -120,32 +120,46 @@
 }
 
 #tabel {
-  border: 1px solid
+  border-collapse: collapse;
+}
+
+.row{
+  text-align: center;
 }
 
 .tdate {
-  height: 40px;
-  width: 100px;
+  height: 80px;
+  width: 3%;
+  border-bottom: 2px solid blue;
 }
 
 .ttime {
-  height: 40px;
-  width: 100px;
+  height: 80px;
+  width: 4%;
+  border-bottom: 2px solid blue;
 }
+
 .tloc {
-  height: 40px;
-  width: 100px;
+  height: 80px;
+  width: 17%;
+  border-bottom: 2px solid blue;
 }
-.td1 {
-  height: 40px;
-  width: 100px;
+
+.t1 {
+  height: 80px;
+  width: 18%;
+  border-bottom: 2px solid blue;
 }
+
 .t2 {
-  height: 40px;
-  width: 100px;
+  height: 80px;
+  width: 15%;
+  border-bottom: 2px solid blue;
 }
+
 .tgames {
-  height: 40px;
-  width: 100px;
+  height: 80px;
+  width: 4%;
+  border-bottom: 2px solid blue;
 }
 
