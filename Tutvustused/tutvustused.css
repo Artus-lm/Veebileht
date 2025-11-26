@@ -1,9 +1,9 @@
 
 .hero {
-  background-image: url('../my-hero.png'); 
+  background-image: url('../pildid/Structura/grupipilt.jpg'); 
   background-size: cover;
   background-position: center;
-  height: 40vh;                
+  height: 50vh;                
   display:flex;
   justify-content:left;
   align-items:center;
@@ -25,26 +25,26 @@
 
 .hero-text h1 {
   color: rgba(255,255,255,0.95);
-  font-size: 35px;
+  font-size: 50px;
   letter-spacing: 1px;
   margin: 0;
   font-weight: 800;
   position: relative;
   z-index: 2;
   text-align:left;
-  margin-left: 150px;
+  margin-left: 170px;
   margin-top: 200px;
 }
 
 .hero-text p {
   color:  rgba(255,255,255,0.95);
-  font-size: 20px;
+  font-size: 35px;
   letter-spacing: 1px;
   margin: 0;
   position: relative;
   z-index: 4;
   text-align:left;
-  margin-left: 150px;
+  margin-left: 170px;
   margin-bottom: 50px;
 }
 
@@ -81,11 +81,12 @@
 
 .player-card h2 {
     margin: 0 0 10px 0;
-    font-size: 1.8rem;
+    font-size: 35px;
 }
 
 .player-card p {
     margin: 4px 0;
+    font-size: 20px;
 }
 
 .player-card:nth-child(even) {
