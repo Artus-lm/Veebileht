@@ -53,3 +53,73 @@
 
 /* Siit algab lehega seotud osa, ilma ülaribata. MITTE ÄRA KUSTUTADA!!! */
 
+.quiz-container {
+  max-width: 900px;
+  margin: 140px auto 80px; /* et header ei kattuks */
+  padding: 0 20px;
+}
+
+.quiz-question {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #001A40;
+}
+
+.answers-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.answer-option {
+  padding: 18px 22px;
+  background: #f4f7ff;
+  border: 2px solid #d6e1f7;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #001A40;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.answer-option:hover {
+  background: #e6eeff;
+  border-color: #a9c4ff;
+}
+
+.answer-option.selected {
+  background: #0042A6;
+  color: #fff;
+  border-color: #001A40;
+}
+
+
+@media (max-width: 600px) {
+  .quiz-question {
+    font-size: 26px;
+  }
+  
+  .answer-option {
+    font-size: 18px;
+    padding: 16px;
+  }
+}
+
+.next-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0042A6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.next-btn:hover {
+  background-color: #0060E0;
+}
+
