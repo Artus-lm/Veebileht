@@ -35,10 +35,10 @@
         },
        {
           "text": "mu nimi on Guinnessi rekordite raamatus 'maailma pikima inimese' all",
-          "scores": { "side": 0, "nurk": 3, "diago": 2, "tempo": 3, "libero": 0, "treener": 1, "pink": 0 }
+          "scores": { "side": 0, "nurk": 2, "diago": 3, "tempo": 3, "libero": 0, "treener": 1, "pink": 0 }
         },
         {
-          "text": "iga aasta detsemebris kutsutakse mind jõuluvanale appi...",
+          "text": "iga aasta detsembris kutsutakse mind jõuluvanale appi...",
           "scores": { "side": 1, "nurk": 0, "diago": 0, "tempo": 0, "libero": 3, "treener": 0, "pink": 0 }
         },
         {
@@ -64,12 +64,12 @@
           "scores": { "side": 2, "nurk": 3, "diago": 3, "tempo": 3, "libero": 0,  "treener": 0, "pink": 1 }
         },
         {
-          "text": "90% maast katab vesi, ülejäänud 10% mina",
+          "text": "70% maast katab vesi, ülejäänud 30% mina",
           "scores": { "side": 2, "nurk": 2, "diago": 2, "tempo": 1, "libero": 3,  "treener": 0, "pink": 1 }
         },
         {
           "text": "oskan vastase mõtteid lugeda",
-          "scores": { "side": 3, "nurk": 1, "diago": 1, "tempo": 1, "libero": 3,  "treener": 3, "pink": 1 }
+          "scores": { "side": 3, "nurk": 1, "diago": 1, "tempo": 3, "libero": 3,  "treener": 3, "pink": 1 }
         }
         
       ]
