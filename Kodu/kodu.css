@@ -139,20 +139,41 @@ body {
   margin-left: 40px;
 }
 
-.section-text p {
-  font-size: 30px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  color:black;
+.section-text {
   text-align: center;
-  text-shadow:5px black;
-  position: relative;
-  margin-top: 100px;
-  
-
+  margin-top: 50px;   /* terve blokki liigutad allapoole */
 }
- 
 
+.section-text h1 {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: linear-gradient(to right, #0042A6, #001A40);
+  -webkit-background-clip: text;   
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;           
+  color: transparent;     
+  margin-bottom: 5px;  /* PEALKIRI ja jutt lähemale */
+}
+
+.section-text p {
+  margin-top: 0;
+  font-size: 30px;
+  background: linear-gradient(to right, #0042A6, #001A40);
+  -webkit-background-clip: text;   
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;           
+  color: transparent;     
+}
+
+.section-divider {
+    border: none;
+    height: 6px;       /* joone paksus */
+    margin: 50px 0px;    /* vahe enne ja pärast */
+    width: 100%;
+    background: linear-gradient(to right, #0042A6, #001A40);
+    /* üle terve lehe */
+}
 
 
 
