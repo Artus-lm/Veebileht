@@ -71,13 +71,14 @@
 </body>
 
 <script>
+alert("JS IS RUNNING");
 function textTo(element, field) {
     const text = document.createTextNode(field)
     element.appendChild(text)
 }
 
 async function createTable() {
-    let response = await fetch("./autoupdate/mangud.json")
+    let response = await fetch("mangud.json")
     let data = await response.json()
     for (let i = 0; i < data.length; i++) {
 
