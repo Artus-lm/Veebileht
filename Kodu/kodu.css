@@ -38,7 +38,7 @@
 
 
 .games-section {
-  max-width: 1000px;                 /* kui lai kaart on */
+  max-width: 90%;                 /* kui lai kaart on */
   margin: 100px auto;                /* keskele, ülevalt/alt vahed */
   padding: 60px 60px;                /* padding kaardi sees */
   background: #f3f3f3;               /* veidi hallim kui valge */
@@ -137,6 +137,33 @@
     /* üle terve lehe */
 }
 
+#tabel {
+  border: 1px solid
+}
 
+.tdate {
+  height: 40px;
+  width: 100px;
+}
 
+.ttime {
+  height: 40px;
+  width: 100px;
+}
+.tloc {
+  height: 40px;
+  width: 100px;
+}
+.td1 {
+  height: 40px;
+  width: 100px;
+}
+.t2 {
+  height: 40px;
+  width: 100px;
+}
+.tgames {
+  height: 40px;
+  width: 100px;
+}
 

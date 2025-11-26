@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "id": 1,
+      "id": 0,
       "text": "Kui Sa ei mängiks võrkpalli, siis mis spordialaga tegeleksid?",
       "answers": [
         {
@@ -26,7 +26,7 @@
 
 
     {
-      "id": 2,
+      "id": 1,
       "text": "Milline on su kehaehitus?",
       "answers": [
         {
@@ -52,7 +52,7 @@
 
 
     {
-      "id": 3,
+      "id": 2,
       "text": "Mis on su supervõime?",
       "answers": [
         {
@@ -78,7 +78,7 @@
 
 
     {
-      "id": 4,
+      "id": 3,
       "text": "Kuidas platsil käitud?",
       "answers": [
         {
@@ -103,7 +103,7 @@
 
 
     {
-      "id": 5,
+      "id": 4,
       "text": "Mida teed, kui oled kaotusseisus?",
       "answers": [
         {
@@ -128,7 +128,7 @@
 
 
     {
-      "id": 6,
+      "id": 5,
       "text": "Milline laul peaks mängima, kui platsile astud?",
       "answers": [
         {

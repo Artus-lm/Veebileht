@@ -27,8 +27,8 @@
   </header>
   <section class="hero">
     <div class="hero-text">
-        <h1>Tekst</h1>
-        <p>Tekst</p>
+        <h1>Test</h1>
+        <p>Mis positsiooni sobid mängima?</p>
     </div>
   </section>
 
@@ -37,16 +37,18 @@
 
     <!-- KÜSIMUS -->
     <div class="quiz-question">
-      <!-- Siia pannakse JS-iga küsimuse tekst -->
+      <h3 id="kysimus">Siia tuleb pik pikk pikkk küsimus</h3>
     </div>
 
+    <p id="vastus"></p>
+    
     <!-- VASTUSED -->
-    <ul class="answers-list">
-      <!-- Siia JS paneb vastusevariantide kastid -->
-    </ul>
-
-    <!-- NUPP JÄRGMISEKS -->
-    <button class="next-btn">Järgmine küsimus</button>
+    <div class="answers-list">
+       <button class="answer-option" id="choice1" onclick="choice(0)">valik1</button>
+       <button class="answer-option" id="choice2" onclick="choice(1)">valik2</button>
+       <button class="answer-option" id="choice3" onclick="choice(2)">valik3</button>
+       <button class="answer-option" id="choice4" onclick="choice(3)">valik4</button>
+    </div>
 
   </div>
 
@@ -58,7 +60,83 @@
 
 </body>
 
-<script >
+<script>
+
+var number = 0
+var answers = []
+<!-- {side = 0, nurk = 0, diago = 0, tempo = 0, libero = 0, treener = 0, pink = 0}-->
+
+function getWinnerPosition(list) {
+  var index = 0
+  for (let i = 0; i < list.length; i++){
+    if (list[i] > list[index]) {
+      index = i
+    }
+  }
+  const positions = ["side", "nurk", "diago", "tempo", "libero", "treener", "pink"] 
+  return positions[index]
+}
+
+async function getData() {
+  let response = await fetch("./küsimused.json")
+  let data = await response.json()
+  return data
+}
+
+async function initial(x){
+  let data = await x
+  document.getElementById("kysimus").textContent=(data["questions"][0]["text"])
+  document.getElementById("choice1").textContent=(data["questions"][0]["answers"][0]["text"])
+  document.getElementById("choice2").textContent=(data["questions"][0]["answers"][1]["text"])
+  document.getElementById("choice3").textContent=(data["questions"][0]["answers"][2]["text"])
+  document.getElementById("choice4").textContent=(data["questions"][0]["answers"][3]["text"])
+} 
+
+async function nextQuest(x) {
+  let data = await x
+  let questions = data["questions"]
+  let results = data["results"]
+  
+
+  if (number < 6) {
+    document.getElementById("kysimus").textContent=(data["questions"][number]["text"])
+    document.getElementById("choice1").textContent=(data["questions"][number]["answers"][0]["text"])
+    document.getElementById("choice2").textContent=(data["questions"][number]["answers"][1]["text"])
+    document.getElementById("choice3").textContent=(data["questions"][number]["answers"][2]["text"])
+    document.getElementById("choice4").textContent=(data["questions"][number]["answers"][3]["text"])
+    number++
+  }
+  else {
+    var pos = [0, 0, 0, 0, 0, 0, 0]
+    for (let i = 0; i <= 5; i++) {
+      const weights = data["questions"][i]["answers"][answers[i]]["scores"]
+      pos[0] = pos[0] + weights["side"]
+      pos[1] = pos[1] + weights["nurk"]
+      pos[2] = pos[2] + weights["diago"]
+      pos[3] = pos[3] + weights["tempo"]
+      pos[4] = pos[4] + weights["libero"]
+      pos[5] = pos[5] + weights["treener"] 
+      pos[6] = pos[6] + weights["pink"]
+    }
+    const position = getWinnerPosition(pos)
+    document.getElementById("kysimus").textContent=("Oled...")
+    document.getElementById("vastus").textContent=(data["results"][position])
+    document.getElementById("choice1").style.display = "none"
+    document.getElementById("choice2").style.display = "none"
+    document.getElementById("choice3").style.display = "none"
+    document.getElementById("choice4").style.display = "none"
+  }
+}
+
+const data = getData()
+
+async function choice(quest) {
+  answers.push(quest)
+  nextQuest(data)
+}
+
+nextQuest(data)
+
 
 </script> 
 </html>
