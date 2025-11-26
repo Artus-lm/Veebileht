@@ -58,7 +58,7 @@ body {
   align-items:center;
   position: relative;
   margin-bottom: 0;
-  box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+  box-shadow: 0 0 40px rgba(0,0,0,0.35)
 }
 
 .hero::after {
@@ -69,11 +69,10 @@ body {
   z-index: 1;
   pointer-events: none;
   opacity: 0.60; 
-  box-shadow: 0 5px 0  rgba(0,0,0,0.15);
-
+  box-shadow: 0 0 40px rgba(0,0,0,0.35)
 }
 
-  /* Keskne tekst pildil */
+  
 .hero-text h1 {
   color: rgba(255,255,255,0.95);
   font-size: 72px;
@@ -85,7 +84,7 @@ body {
 }
 
 
-/* --- GAMES SECTION (MÄNGUD) KAARDINA --- */
+
 
 .games-section {
   max-width: 1000px;                 /* kui lai kaart on */
@@ -96,7 +95,7 @@ body {
   box-shadow: 0 0 40px rgba(0,0,0,0.35);  /* must-hall vari igast küljest */
 }
 
-/* Me ei taha siin standardset .container flexi kasutada */
+
 .games-section .games-inner {
   max-width: 100%;
 }
