@@ -150,6 +150,9 @@ body {
 .section-text {
   text-align: center;
   margin-top: 50px;   /* terve blokki liigutad allapoole */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-text h1 {
@@ -166,7 +169,7 @@ body {
 
 .section-text p {
   margin-top: 0;
-  font-size: 30px;
+  font-size: 20px;
   background: linear-gradient(to right, #0042A6, #001A40);
   -webkit-background-clip: text;   
   -webkit-text-fill-color: transparent; 
