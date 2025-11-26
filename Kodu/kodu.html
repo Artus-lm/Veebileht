@@ -44,7 +44,9 @@
     <div class="games-inner">
         <h2 class="section-title">Mängud</h2>
 
-            <div class="scoreboard-card" id="scoreboard"></div>
+            <div class="scoreboard-card" id="scoreboard">
+                <table id="tabel"></table>
+            </div>
         </div>
     </section>
 
@@ -87,14 +89,14 @@ async function createTable() {
             text_to(games, data[i]["home_points"] + " - " + data[i]["away_points"]);
         }
         else {text_to(games, "   -   ")}
-        row.appendChild(date)
-        row.appendChild(time)
-        row.appendChild(loc)
-        row.appendChild(team1)
-        row.appendChild(games)
-        row.appendChild(team2)
-        const scoreboard = document.getElementById("scoreboard");
-        scoreboard.appendChild(row)
+        row.appendChild(date);
+        row.appendChild(time);
+        row.appendChild(loc);
+        row.appendChild(team1);
+        row.appendChild(games);
+        row.appendChild(team2);
+        const scoreboard = document.getElementById("tabel");
+        scoreboard.appendChild(row);
     }
 
 }
