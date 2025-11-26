@@ -52,18 +52,29 @@ body {
   margin-top: 80px;
   background: linear-gradient(to right, #0042A6, #001A40);
   color: #fff;
+  opacity: 0.85;
 }
 
 .footer-inner {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   gap: 24px;
-  padding: 70px 0;
+  padding: 70px 40px;
+  margin-left: 50px;
 }
 
-.footer-inner > div { 
-  opacity: 0.95;
-  justify-content: space-between;
+.footer-inner h1 { 
+  font-size: 32px;
+  margin: 0;
+  font-weight: 500;
+}
+.footer-inner ul {
+  padding : 0;
+  margin: 0;
+}
+
+.footer-inner li {
   font-size: 20px;
-  margin-left: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
 }

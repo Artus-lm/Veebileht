@@ -51,7 +51,6 @@
   max-width: 100%;
 }
 
-/* Mängud pealkiri kaardi sees, ilma selle suure tõstmiseta */
 .games-section .section-title {
   font-size: 55px;
   font-weight: 500;
@@ -61,46 +60,26 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  transform: none;                 /* EEMALDAME vana translate */
+  transform: none;                 
   text-align: left;
-  margin: 0 0 30px 0;              /* pealkirja all väike vahe */
+  margin: 0 0 30px 0;
+  opacity: 0.85;
 }
 
-/* Scoreboard kast kaardi sees */
+
 .scoreboard-card {
-  background: #ffffff;             /* scoreboard ise valge */
+  background: #ffffff;             
   border-radius: 20px;
   min-height: 260px;
   width: 100%;
   padding: 40px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.12) inset; /* kerge inner-varjund, kui tahad */
+  box-shadow: 0 0 10px rgba(0,0,0,0.12) inset; 
   margin-top: 10px;
-}
-
-
-.site-footer {
-  margin-top: 80px;
-  background: linear-gradient(to right, #0042A6, #001A40);
-  color: #fff;
-}
-
-.footer-inner {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 70px 0;
-}
-
-.footer-inner > div { 
-  opacity: 0.95;
-  justify-content: space-between;
-  font-size: 20px;
-  margin-left: 40px;
 }
 
 .section-text {
   text-align: center;
-  margin-top: 50px;   /* terve blokki liigutad allapoole */
+  margin-top: 50px;  
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -115,7 +94,8 @@
   -webkit-text-fill-color: transparent; 
   background-clip: text;           
   color: transparent;     
-  margin-bottom: 5px;  /* PEALKIRI ja jutt lähemale */
+  margin-bottom: 5px;
+  opacity: 0.85; 
 }
 
 .section-text p {
@@ -125,16 +105,18 @@
   -webkit-background-clip: text;   
   -webkit-text-fill-color: transparent; 
   background-clip: text;           
-  color: transparent;     
+  color: transparent;
+  opacity: 0.85;
 }
 
 .section-divider {
     border: none;
-    height: 6px;       /* joone paksus */
-    margin: 50px 0px;    /* vahe enne ja pärast */
+    height: 6px;       
+    margin: 50px 0px;   
     width: 100%;
     background: linear-gradient(to right, #0042A6, #001A40);
-    /* üle terve lehe */
+    opacity: 0.85;
+
 }
 
 #tabel {
