@@ -2,152 +2,141 @@
     {
         "date": "04/10/2025",
         "time": "13:00",
-        "location": "Maaülikooli Spordihoone ",
+        "location": "Maaülikooli Spordihoone",
+        "home": "Eesti Maaülikool/Embach",
         "home_points": "3",
-        "home": "Eesti Maaülikool/Embach ",
         "away_points": "2",
-        "away": "Structura/Tartu vald ",
-        "state": "Done"
+        "state": "Done",
+        "away": "Structura/Tartu vald"
     },
-
     {
         "date": "05/10/2025",
         "time": "16:00",
-        "location": "Kõrveküla kooli SH ",
+        "location": "Kõrveküla kooli SH",
+        "home": "Structura/Tartu vald",
         "home_points": "3",
-        "home": "Structura/Tartu vald ",
         "away_points": "0",
-        "away": "EstNor/Kiili ",
-        "state": "Done"
+        "state": "Done",
+        "away": "EstNor/Kiili"
     },
-
     {
         "date": "18/10/2025",
         "time": "14:00",
-        "location": "Kindluse spordihoone ",
+        "location": "Kindluse spordihoone",
+        "home": "Advokaadibüroo Premium/Rae vald",
         "home_points": "2",
-        "home": "Advokaadibüroo Premium/Rae vald ",
         "away_points": "3",
-        "away": "Structura/Tartu vald ",
-        "state": "Done"
+        "state": "Done",
+        "away": "Structura/Tartu vald"
     },
-
     {
         "date": "19/10/2025",
         "time": "16:00",
-        "location": "Kõrveküla kooli SH ",
+        "location": "Kõrveküla kooli SH",
+        "home": "Structura/Tartu vald",
         "home_points": "1",
-        "home": "Structura/Tartu vald ",
         "away_points": "3",
-        "away": "BMF/Rakvere VK ",
-        "state": "Done"
+        "state": "Done",
+        "away": "BMF/Rakvere VK"
     },
-
     {
         "date": "08/11/2025",
         "time": "13:00",
-        "location": "Sõle Spordikeskus ",
-        "home": "E-Lux Tallinn ",
-        "away": "Structura/Tartu vald ",
-        "state": "TB"
+        "location": "Sõle Spordikeskus",
+        "home": "E-Lux Tallinn",
+        "home_points": "1",
+        "away_points": "3",
+        "state": "Done",
+        "away": "Structura/Tartu vald"
     },
-
     {
         "date": "09/11/2025",
         "time": "16:00",
-        "location": "Kõrveküla kooli SH ",
-        "home": "Structura/Tartu vald ",
-        "away": "IMsport/Türi SK ",
-        "state": "TB"
+        "location": "Kõrveküla kooli SH",
+        "home": "Structura/Tartu vald",
+        "home_points": "3",
+        "away_points": "0",
+        "state": "Done",
+        "away": "IMsport/Türi SK"
     },
-
     {
         "date": "29/11/2025",
         "time": "14:00",
-        "location": "Raeküla Kool ",
-        "home": "Pärnu SK/VK ",
-        "away": "Structura/Tartu vald ",
-        "state": "TB"
+        "location": "Raeküla Kool",
+        "home": "Pärnu SK/VK",
+        "state": "TB",
+        "away": "Structura/Tartu vald"
     },
-
     {
         "date": "13/12/2025",
-        "time": "16:00",
-        "location": "Kõrveküla kooli SH ",
-        "home": "Structura/Tartu vald ",
-        "away": "Tallinna Ülikool ",
-        "state": "TB"
+        "time": "14:00",
+        "location": "Kõrveküla kooli SH",
+        "home": "Structura/Tartu vald",
+        "state": "TB",
+        "away": "Tallinna Ülikool"
     },
-
     {
         "date": "10/01/2026",
         "time": "16:00",
-        "location": "Kõrveküla kooli SH ",
-        "home": "Structura/Tartu vald ",
-        "away": "Eesti Maaülikool/Embach ",
-        "state": "TB"
+        "location": "Kõrveküla kooli SH",
+        "home": "Structura/Tartu vald",
+        "state": "TB",
+        "away": "Eesti Maaülikool/Embach"
     },
-
     {
         "date": "17/01/2026",
         "time": "13:00",
-        "location": "Kiili SH ",
-        "home": "EstNor/Kiili ",
-        "away": "Structura/Tartu vald ",
-        "state": "TB"
+        "location": "Kiili SH",
+        "home": "EstNor/Kiili",
+        "state": "TB",
+        "away": "Structura/Tartu vald"
     },
-
     {
         "date": "18/01/2026",
         "time": "16:00",
-        "location": "Kõrveküla kooli SH ",
-        "home": "Structura/Tartu vald ",
-        "away": "Advokaadibüroo Premium/Rae vald ",
-        "state": "TB"
+        "location": "Kõrveküla kooli SH",
+        "home": "Structura/Tartu vald",
+        "state": "TB",
+        "away": "Advokaadibüroo Premium/Rae vald"
     },
-
     {
         "date": "31/01/2026",
         "time": "14:00",
-        "location": "Rahu Hall ",
-        "home": "BMF/Rakvere VK ",
-        "away": "Structura/Tartu vald ",
-        "state": "TB"
+        "location": "Rahu Hall",
+        "home": "BMF/Rakvere VK",
+        "state": "TB",
+        "away": "Structura/Tartu vald"
     },
-
     {
         "date": "01/02/2026",
         "time": "16:00",
-        "location": "Kõrveküla kooli SH ",
-        "home": "Structura/Tartu vald ",
-        "away": "E-Lux Tallinn ",
-        "state": "TB"
+        "location": "Kõrveküla kooli SH",
+        "home": "Structura/Tartu vald",
+        "state": "TB",
+        "away": "E-Lux Tallinn"
     },
-
     {
         "date": "21/02/2026",
         "time": "16:00",
-        "location": "Konesko Türi SH ",
-        "home": "IMsport/Türi SK ",
-        "away": "Structura/Tartu vald ",
-        "state": "TB"
+        "location": "Konesko Türi SH",
+        "home": "IMsport/Türi SK",
+        "state": "TB",
+        "away": "Structura/Tartu vald"
     },
-
     {
         "date": "22/02/2026",
         "time": "16:00",
-        "location": "Kõrveküla kooli SH ",
-        "home": "Structura/Tartu vald ",
-        "away": "Pärnu SK/VK ",
-        "state": "TB"
+        "location": "Kõrveküla kooli SH",
+        "home": "Structura/Tartu vald",
+        "state": "TB",
+        "away": "Pärnu SK/VK"
     },
-
     {
         "date": "08/03/2026",
         "time": "13:00",
-        "location": "Tallinna Ülikooli SH ",
-        "home": "Tallinna Ülikool ",
-        "away": "Structura/Tartu vald ",
-        "state": "TB"
+        "location": "Tallinna Ülikooli SH",
+        "home": "Tallinna Ülikool",
+        "state": "TB",
+        "away": "Structura/Tartu vald"
     }
 ]
