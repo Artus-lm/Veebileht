@@ -3,13 +3,13 @@ import bs4, requests, json
 # --- Options ---
 
 wanted_team = "Structura/Tartu vald"            # team name for specific team or None for all teams
-save_to = "./Kodu/autoupdate/mangud.json"        # save file path
+save_to = "./Kodu/autoupdate/mangud.json"       # save file path
 site_url = "https://evf-web.dataproject.com/CompetitionMatches.aspx?ID=84&PID=126"
 
 
-# --- Functions ---
+# --- Helper Functions ---
 
-def findLength(list, date):
+def findLength(list, date):                         #gets the length of data that we need to remove at the end (the same info is twice for some reason)
     count = 0
     for i, value in enumerate(list):
         if (value == date) & (i != 0):
@@ -132,24 +132,27 @@ def dataExtract(unextracted_list):
     return extracted
 
 
-# --- main body ---
+def main():
+    response = requests.get(site_url, headers={'User-Agent': 'Mozilla/5.0'})
+    soup = bs4.BeautifulSoup(response.text, features="html.parser")
 
+    site_text = soup.body.get_text(' ', strip=True)    # https://stackoverflow.com/questions/69593352/how-to-get-all-copyable-location-from-a-web-page-python
 
-response = requests.get(site_url, headers={'User-Agent': 'Mozilla/5.0'})
-soup = bs4.BeautifulSoup(response.text, features="html.parser")
+    data_start = site_text.find("Matches Põhiturniir ") + len("Matches Põhiturniir ")
+    data_end = site_text.find("Play-Off Play-Off") - len(site_text)
+    footer_length = 77
+    plofs_start = site_text.find("Play-Off Play-Off") + len("Play-Off Play-Off Matches ")
 
-site_text = soup.body.get_text(' ', strip=True)    # https://stackoverflow.com/questions/69593352/how-to-get-all-copyable-location-from-a-web-page-python
+    data = site_text[data_start:data_end]
+    playoffs = site_text[plofs_start:-footer_length]
 
-data = site_text[site_text.find("Matches Põhiturniir")+20:(site_text.find("Play-Off Play-Off") - len(site_text))]  # removes all text that isnt needed
-playoffs = site_text[site_text.find("Play-Off Play-Off")+26:-77]
+    extracted = dataExtract(data.split())
+    extracted_playoffs = dataExtract(playoffs.split())
 
-extracted = dataExtract(data.split())
-extracted_playoffs = dataExtract(playoffs.split())
+    to_write = extracted + extracted_playoffs
 
+    with open(save_to, mode="w", encoding="UTF-8") as jfile:
+        json.dump(to_write, jfile, indent=4, ensure_ascii=False)
 
-# --- Saving ---
-
-to_write = extracted + extracted_playoffs
-
-with open(save_to, mode="w", encoding="UTF-8") as jfile:
-    json.dump(to_write, jfile, indent=4, ensure_ascii=False)
+if __name__ == "__main__":
+    main()
