@@ -55,7 +55,7 @@ async function nextQuest(x) {
       pos[6] = pos[6] + weights["pink"]
     }
     const position = getWinnerPosition(pos)
-    document.getElementById("kysimus").textContent=("Oled... " + data["results"][position][0])
+    document.getElementById("kysimus").textContent=("Oled: " + data["results"][position][0])
     document.getElementById("vastus").textContent=(data["results"][position][1])
     document.getElementById("choice1").style.display = "none"
     document.getElementById("choice2").style.display = "none"

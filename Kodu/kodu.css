@@ -130,36 +130,36 @@
 .tdate {
   height: 80px;
   width: 3%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #0042A6;
 }
 
 .ttime {
   height: 80px;
   width: 4%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #0042A6;
 }
 
 .tloc {
   height: 80px;
   width: 17%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #0042A6;
 }
 
 .t1 {
   height: 80px;
   width: 18%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #0042A6;
 }
 
 .t2 {
   height: 80px;
   width: 15%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #0042A6;
 }
 
 .tgames {
   height: 80px;
   width: 4%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #0042A6;
 }
 
