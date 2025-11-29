@@ -33,7 +33,7 @@ body {
 .main-nav ul {
   list-style: none;
   display: flex;
-  gap: 40px;                   
+  gap: 60px;                   
   align-items: center;
 }
 
