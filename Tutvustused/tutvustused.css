@@ -112,15 +112,15 @@
     margin-right: 0;
 }
 
-/* Special styling for the coach card */
+
 .player-card.treener {
-  flex-direction: column !important;  /* force image on top */
+  flex-direction: column !important;  
   justify-content: center;
   align-items: center;
   text-align: center;
   border: 2px solid #0042A6;
   box-shadow: 0 0 40px rgba(0,0,0,0.35);
-  margin-left: auto;   /* center card */
+  margin-left: auto;   
   margin-right: auto;
 }
 
@@ -133,4 +133,132 @@
   max-width: 700px;
 }
 
+/* ---------- LÄPAKAD ---------- */
+@media (max-width: 1200px) {
+  .hero-text h1 {
+    font-size: 42px;
+    margin-left: 80px;
+    margin-top: 150px;
+  }
+
+  .hero-text p {
+    font-size: 26px;
+    margin-left: 80px;
+  }
+
+  .player-card {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .player-card img {
+    width: 200px;
+  }
+
+  .player-card h2 {
+    font-size: 30px;
+  }
+
+  .player-card p {
+    font-size: 18px;
+  }
+}
+
+
+/* ---------- TAHVELID ---------- */
+@media (max-width: 900px) {
+
+  /* HERO */
+  .hero {
+    height: 40vh;
+  }
+
+  .hero-text h1 {
+    font-size: 34px;
+    margin-left: 40px;
+    margin-top: 120px;
+  }
+
+  .hero-text p {
+    font-size: 22px;
+    margin-left: 40px;
+  }
+
+  /* KAARDID STACKED */
+  .player-card {
+    flex-direction: column !important;
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .player-card:nth-child(even),
+  .player-card:nth-child(odd) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .player-card img {
+    width: 220px;
+    margin-bottom: 15px;
+  }
+
+  .player-info {
+    max-width: 100%;
+  }
+}
+
+
+/* ---------- TELEFON ---------- */
+@media (max-width: 600px) {
+
+  /* HERO */
+  .hero {
+    height: 32vh;
+    background-position: center top;
+  }
+
+  .hero-text h1 {
+    font-size: 26px;
+    letter-spacing: 0;
+    margin-left: 20px;
+    margin-top: 90px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* KAARDID */
+  .player-card {
+    width: 95%;
+    padding: 18px;
+    margin: 30px auto;
+    border-radius: 14px;
+  }
+
+  .player-card img {
+    width: 180px;
+  }
+
+  .player-card h2 {
+    font-size: 24px;
+  }
+
+  .player-card p {
+    font-size: 16px;
+  }
+
+  /* TREENER */
+  .player-card.treener img {
+    width: 200px;
+  }
+
+  .player-card.treener {
+    padding: 22px;
+    border-width: 2px;
+  }
+}
 
