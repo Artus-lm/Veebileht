@@ -3,7 +3,7 @@
   background-image: url('../my-hero.png'); 
   background-size: cover;
   background-position: center;
-  height: 40vh;                
+  height: 50vh;                
   display:flex;
   justify-content:left;
   align-items:center;
@@ -26,26 +26,26 @@
 
 .hero-text h1 {
   color: rgba(255,255,255,0.95);
-  font-size: 35px;
+  font-size: 50px;
   letter-spacing: 1px;
   margin: 0;
   font-weight: 800;
   position: relative;
   z-index: 2;
   text-align:left;
-  margin-left: 150px;
+  margin-left: 170px;
   margin-top: 200px;
 }
 
 .hero-text p {
   color:  rgba(255,255,255,0.95);
-  font-size: 20px;
+  font-size: 35px;
   letter-spacing: 1px;
   margin: 0;
   position: relative;
   z-index: 4;
   text-align:left;
-  margin-left: 150px;
+  margin-left: 170px;
   margin-bottom: 30px;
 }
 
@@ -63,7 +63,12 @@
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 50px;
-  color: #001A40;
+  background: linear-gradient(to right, #0042A6, #001A40);
+  -webkit-background-clip: text;   
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;           
+  color: transparent;
+  opacity: 0.85;
 }
 
 .answers-list {
@@ -110,7 +115,7 @@
 .next-btn {
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #0042A6;
+  background-color: linear-gradient(to right, #0042A6, #001A40);
   color: #fff;
   border: none;
   border-radius: 6px;

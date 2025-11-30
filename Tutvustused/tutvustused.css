@@ -49,33 +49,44 @@
 }
 
 .players-section {
-    width: 100%;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
 }
 
 .player-card {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+
+  width: 80%;
+  margin: 60px auto;
+
+  padding: 30px;
+  background: #f3f3f3;
+  border-radius: 16px;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 0 40px rgba(0,0,0,0.35);
 }
 
 .player-card img {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+    
 }
 
 .player-info {
-    max-width: 700px;
-    background: linear-gradient(to right, #0042A6, #001A40);
-    -webkit-background-clip: text;   
-    -webkit-text-fill-color: transparent; 
-    background-clip: text;           
-    color: transparent;
-    opacity: 0.85;
+  max-width: 700px;
+  background: linear-gradient(to right, #0042A6, #001A40);
+  -webkit-background-clip: text;   
+  -webkit-text-fill-color: transparent; 
+  background-clip: text;           
+  color: transparent;
+  opacity: 0.85;
+    
 
 }
 
@@ -89,7 +100,37 @@
     font-size: 20px;
 }
 
+.player-card:nth-child(odd) {
+  flex-direction: row;
+  margin-left: 0;
+  margin-right: auto;
+}
+
 .player-card:nth-child(even) {
     flex-direction: row-reverse;
+    margin-left: auto;
+    margin-right: 0;
 }
+
+/* Special styling for the coach card */
+.player-card.treener {
+  flex-direction: column !important;  /* force image on top */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #0042A6;
+  box-shadow: 0 0 40px rgba(0,0,0,0.35);
+  margin-left: auto;   /* center card */
+  margin-right: auto;
+}
+
+.player-card.treener img {
+  width: 280px;
+  margin-bottom: 15px;
+}
+
+.player-card.treener .player-info {
+  max-width: 700px;
+}
+
 
