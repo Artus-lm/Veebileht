@@ -62,7 +62,7 @@
 .quiz-question {
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: #001A40;
 }
 
@@ -128,4 +128,14 @@
   font-weight: 450;
   margin-top: -20px;
   color: #001A40;
+}
+
+.quiz-container {
+  background: #ffffff;             
+  border-radius: 20px;
+  width: 80%;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.12) inset; 
+  margin-top: 50px;
+  place-self: center;
 }

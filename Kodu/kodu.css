@@ -123,40 +123,43 @@
   border-collapse: collapse;
 }
 
-.row {
+.row{
   text-align: center;
 }
 
-/* Shared gradient border style */
-.tdate, .ttime, .tloc, .t1, .t2, .tgames {
-  position: relative;
+.tdate {
   height: 80px;
-  border-bottom: none; /* remove old solid border */
+  width: 3%;
+  border-bottom: 2px solid #0042A6;
 }
 
-/* Gradient underline for all */
-.tdate::after,
-.ttime::after,
-.tloc::after,
-.t1::after,
-.t2::after,
-.tgames::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px; /* border thickness */
-  width: 100%;
-  background: linear-gradient(to right, #0042A6, #001A40);
-  opacity: 0.85;
+.ttime {
+  height: 80px;
+  width: 4%;
+  border-bottom: 2px solid #0042A6;
 }
 
-/* Individual widths */
-.tdate  { width: 3%; }
-.ttime  { width: 4%; }
-.tloc   { width: 17%; }
-.t1     { width: 18%; }
-.t2     { width: 15%; }
-.tgames { width: 4%; }
+.tloc {
+  height: 80px;
+  width: 17%;
+  border-bottom: 2px solid #0042A6;
+}
 
+.t1 {
+  height: 80px;
+  width: 18%;
+  border-bottom: 2px solid #0042A6;
+}
+
+.t2 {
+  height: 80px;
+  width: 15%;
+  border-bottom: 2px solid #0042A6;
+}
+
+.tgames {
+  height: 80px;
+  width: 4%;
+  border-bottom: 2px solid #0042A6;
+}
 
