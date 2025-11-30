@@ -38,12 +38,13 @@
 
 
 .games-section {
-  max-width: 90%;                 /* kui lai kaart on */
-  margin: 100px auto;                /* keskele, ülevalt/alt vahed */
-  padding: 60px 60px;                /* padding kaardi sees */
-  background: #f3f3f3;               /* veidi hallim kui valge */
-  border-radius: 35px;               /* pehmed ümarad nurgad */
-  box-shadow: 0 0 40px rgba(0,0,0,0.35);  /* must-hall vari igast küljest */
+  max-width: 90%;                 
+  margin: 100px auto;                
+  padding: 60px 60px;                
+  background: #f3f3f3;               
+  border-radius: 35px;               
+  box-shadow: 0 0 40px rgba(0,0,0,0.35);  
+  
 }
 
 
@@ -159,3 +160,125 @@
 .tgames { width: 4%; }
 
 
+/* ---------- LÄPAKAS ---------- */
+@media (max-width: 1200px) {
+  .hero {
+    height: 60vh;
+  }
+
+  .hero-text h1 {
+    font-size: 56px;
+  }
+
+  .games-section {
+    max-width: 95%;
+    padding: 40px 40px;
+    margin: 70px auto;
+  }
+
+  .section-text h1 {
+    font-size: 42px;
+  }
+
+  .section-text p {
+    font-size: 18px;
+  }
+
+  .games-section .section-title {
+    font-size: 45px;
+  }
+}
+
+
+/* ---------- TAHVEL ---------- */
+@media (max-width: 900px) {
+  .hero {
+    height: 50vh;
+    justify-content: center;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .games-section {
+    max-width: 95%;
+    padding: 30px 20px;
+    margin: 50px auto;
+  }
+
+  .games-section .section-title {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .section-text {
+    padding: 0 20px;
+  }
+
+  .section-text h1 {
+    font-size: 34px;
+  }
+
+  .section-text p {
+    font-size: 17px;
+  }
+
+  .scoreboard-card {
+    padding: 25px 15px;
+  }
+
+  #tabel {
+    font-size: 14px;
+  }
+}
+
+
+/* ---------- TELEFON ---------- */
+@media (max-width: 600px) {
+  .hero {
+    height: 40vh;
+    background-position: center top;
+  }
+
+  .hero-text h1 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding: 0 15px;
+  }
+
+  .section-text {
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+
+  .section-text h1 {
+    font-size: 26px;
+  }
+
+  .section-text p {
+    font-size: 15px;
+  }
+
+  .games-section {
+    margin: 40px auto;
+    padding: 20px 15px;
+    border-radius: 20px;
+  }
+
+  .games-section .section-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .scoreboard-card {
+    padding: 15px 10px;
+  }
+
+  #tabel {
+    font-size: 12px;
+  }
+}
