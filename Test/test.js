@@ -41,6 +41,8 @@ async function nextQuest(x) {
     document.getElementById("choice3").textContent=(data["questions"][number]["answers"][2]["text"])
     document.getElementById("choice4").textContent=(data["questions"][number]["answers"][3]["text"])
     number++
+
+    updateProgress();
   }
   else {
     var pos = [0, 0, 0, 0, 0, 0, 0]
@@ -72,4 +74,11 @@ async function choice(quest) {
 }
 
 nextQuest(data)
+
+function updateProgress() {
+  const bar = document.getElementById("progressBar");
+  const total = 6;   
+  const percent = (number / total) * 100;
+  bar.style.width = percent + "%";
+}
 
