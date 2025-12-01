@@ -174,37 +174,6 @@
 }
 
 
-/* ---------- TELEFON ---------- */
-@media (max-width: 600px) {
-  .quiz-container {
-    width: 95%;
-    padding: 25px 20px;
-    margin-top: 120px;
-  }
-
-  .progress-wrapper {
-    height: 10px;
-    margin-bottom: 30px;
-  }
-
-  .quiz-question {
-    font-size: 26px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  .answer-option {
-    font-size: 16px;
-    padding: 14px;
-  }
-
-  #vastus {
-    font-size: 18px;
-    margin-top: -10px;
-    text-align: center;
-  }
-}
-
 /* ---------- LÄPAKAD ---------- */
 @media (max-width: 1200px) {
 
@@ -294,6 +263,37 @@
 
   #vastus {
     font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* ---------- TELEFON ---------- */
+@media (max-width: 600px) {
+  .quiz-container {
+    width: 95%;
+    padding: 25px 20px;
+    margin-top: 120px;
+  }
+
+  .progress-wrapper {
+    height: 10px;
+    margin-bottom: 30px;
+  }
+
+  .quiz-question {
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .answer-option {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  #vastus {
+    font-size: 18px;
+    margin-top: -10px;
     text-align: center;
   }
 }
