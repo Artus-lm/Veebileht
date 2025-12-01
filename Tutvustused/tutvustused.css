@@ -3,7 +3,7 @@
   background-image: url('../pildid/Structura/grupipilt.jpg'); 
   background-size: cover;
   background-position: center;
-  height: 50vh;                
+  height: 55vh;                
   display:flex;
   justify-content:left;
   align-items:center;
@@ -57,18 +57,51 @@
 
 .player-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 30px;
+  position: relative;
 
   width: 80%;
   margin: 60px auto;
-
   padding: 30px;
+
   background: #f3f3f3;
   border-radius: 16px;
-  border: 1px solid rgba(0,0,0,0.05);
-  box-shadow: 0 0 40px rgba(0,0,0,0.35);
+
+  box-shadow: 0 0 20px rgba(0,0,0,0.20); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.player-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px; 
+  border-radius: inherit;
+
+  background: linear-gradient(to right, #0042A6, #001A40);
+
+  -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+
+  opacity: 0.85;      
+  pointer-events: none;
+  z-index: 1;
+}
+
+.player-card.treener::before {
+    padding: 6px; 
+}
+
+
+.player-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
 
 .player-card img {
@@ -80,24 +113,45 @@
 
 .player-info {
   max-width: 700px;
-  background: linear-gradient(to right, #0042A6, #001A40);
-  -webkit-background-clip: text;   
-  -webkit-text-fill-color: transparent; 
-  background-clip: text;           
-  color: transparent;
-  opacity: 0.85;
-    
-
+  color: #001A40;          
+  opacity: 0.9;
+  flex: 1;
 }
+
+.player-info p:first-of-type {
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #0042A6, #001A40);
+  color: #fff;                  
+}
+
 
 .player-card h2 {
-    margin: 0 0 10px 0;
-    font-size: 35px;
+  margin: 0 0 10px 0;
+  font-size: 35px;
+  background: linear-gradient(to right, #0042A6, #001A40);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
 }
+
+
 
 .player-card p {
     margin: 4px 0;
     font-size: 20px;
+}
+
+.hero-text h1,
+.hero-text p {
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
 }
 
 .player-card:nth-child(odd) {
@@ -118,7 +172,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 2px solid #0042A6;
   box-shadow: 0 0 40px rgba(0,0,0,0.35);
   margin-left: auto;   
   margin-right: auto;
@@ -133,16 +186,18 @@
   max-width: 700px;
 }
 
+
+
 /* ---------- LÄPAKAD ---------- */
 @media (max-width: 1200px) {
   .hero-text h1 {
-    font-size: 35px;
+    font-size: 42px;
     margin-left: 80px;
     margin-top: 150px;
   }
 
   .hero-text p {
-    font-size: 20px;
+    font-size: 26px;
     margin-left: 80px;
   }
 

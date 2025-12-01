@@ -32,9 +32,9 @@
   position: relative;
   z-index: 2;
   text-align: center;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+
 }
-
-
 
 
 .games-section {
@@ -76,6 +76,22 @@
   padding: 40px;
   box-shadow: 0 0 10px rgba(0,0,0,0.12) inset; 
   margin-top: 10px;
+  position: relative;
+}
+
+.scoreboard-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px; 
+  border-radius: inherit;
+  opacity: 0.85;
+  background: linear-gradient(to right, #0042A6, #001A40);
+  -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
 }
 
 .section-text {
@@ -102,11 +118,7 @@
 .section-text p {
   margin-top: 0;
   font-size: 20px;
-  background: linear-gradient(to right, #0042A6, #001A40);
-  -webkit-background-clip: text;   
-  -webkit-text-fill-color: transparent; 
-  background-clip: text;           
-  color: transparent;
+  color: #001A40;
   opacity: 0.85;
 }
 
@@ -132,7 +144,8 @@
 .tdate, .ttime, .tloc, .t1, .t2, .tgames {
   position: relative;
   height: 80px;
-  border-bottom: none; 
+  border-bottom: none;
+  color: #001A40; 
 }
 
 

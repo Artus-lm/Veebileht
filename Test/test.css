@@ -1,9 +1,9 @@
 
 .hero {
-  background-image: url('../pildid/Structura/korvpall4.jpg'); 
+  background-image: url('../pildid/Structura/vorkpall2.jpg'); 
   background-size: cover;
   background-position: center;
-  height: 50vh;                
+  height: 55vh;                
   display:flex;
   justify-content:left;
   align-items:center;
@@ -57,7 +57,7 @@
 
 .quiz-container {
   max-width: 1000px;
-  margin: 140px auto;
+  margin: 80px auto;
   width: 80%;
   padding: 40px 40px;
 
@@ -71,7 +71,10 @@
   box-shadow: 0 0 40px rgba(0,0,0,0.35);
 }
 
-
+.hero-text h1,
+.hero-text p {
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
 
 
 .progress-wrapper {
@@ -126,12 +129,13 @@
   font-size: 20px;
   color: #001A40;
   cursor: pointer;
-  transition: 0.25s ease;
+  transition: 0.2s ease;
 }
 
 .answer-option:hover {
   background: #e8eeff;
   border-color: #97b4ff;
+  transform: translateY(-1px);
 }
 
 .answer-option.selected {
@@ -160,11 +164,13 @@
   border-radius: 6px;
   cursor: pointer;
   margin-top: 20px;
-  transition: background 0.3s;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 }
 
 .next-btn:hover {
-  background: #0060E0;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+  opacity: 0.95
 }
 
 
