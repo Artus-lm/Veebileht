@@ -128,7 +128,8 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
   background: linear-gradient(to right, #0042A6, #001A40);
-  color: #fff;                  
+  color: #fff;
+  opacity: 0.85;       
 }
 
 
@@ -140,6 +141,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   position: relative;
+  opacity: 0.85;
 }
 
 

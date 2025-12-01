@@ -106,17 +106,20 @@ body {
 
 @media (max-width: 900px) {
   .container {
-    flex-direction: column;
-    height: auto;
-    padding: 12px 20px;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    padding: 8px 16px;
     gap: 12px;
   }
   .logo {
-    max-height: 140px;
+    max-height: 120px;
   }
   .main-nav ul {
     flex-direction: row;
-    gap: 25px;
+    gap: 18px;
+    justify-content:flex-end;
+    flex-wrap: wrap;
   }
   .main-nav a {
     font-size: 16px;
