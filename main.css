@@ -142,7 +142,7 @@ body {
     max-height: 100px;
   }
   .main-nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
   }
   .main-nav a {
