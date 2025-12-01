@@ -64,7 +64,9 @@
         "time": "14:00",
         "location": "Raeküla Kool",
         "home": "Pärnu SK/VK",
-        "state": "TB",
+        "home_points": "1",
+        "away_points": "3",
+        "state": "Done",
         "away": "Structura/Tartu vald"
     },
     {
