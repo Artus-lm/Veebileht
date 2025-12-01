@@ -136,13 +136,13 @@
 /* ---------- LÄPAKAD ---------- */
 @media (max-width: 1200px) {
   .hero-text h1 {
-    font-size: 42px;
+    font-size: 35px;
     margin-left: 80px;
     margin-top: 150px;
   }
 
   .hero-text p {
-    font-size: 26px;
+    font-size: 20px;
     margin-left: 80px;
   }
 
